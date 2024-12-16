@@ -1,4 +1,4 @@
-# Waffle API
+# Waffle API v1.0
 *Made with: ASP.NET Core Web API (.NET 8)*
 
 ## Database ERD:
