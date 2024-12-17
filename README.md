@@ -2,4 +2,4 @@
 *Made with: ASP.NET Core Web API (.NET 8)*
 
 ## Database ERD:
-![ERD_waffle_workout](https://github.com/user-attachments/assets/e379b0dd-6b81-40ac-9def-24140730412c)
+![waffle_workout_db_ERD](https://github.com/user-attachments/assets/73dc62fd-44e4-42c0-b772-54423199e31d)
