@@ -58,7 +58,6 @@ public partial class WaffleDbContext : DbContext
     public virtual DbSet<WorkoutLogsTimeline> WorkoutLogsTimelines { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseMySql("server=77.251.5.254;database=waffle_workout_db;user id=ps250444;password=G7!rE2@9wN^zX3#jU1*QkT5&fL0$", ServerVersion.Parse("10.4.32-mariadb"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
